@@ -61,10 +61,12 @@ node $SKILL/scripts/cli.mjs download --doc-id <docId>
 ## 安装（作为 WorkBuddy / CodeBuddy skill）
 
 ```bash
-# WorkBuddy
-unzip wenshu-court-collector.zip -d ~/.workbuddy/skills/
+# WorkBuddy（git clone 或下载 ZIP 解压到 skills 目录）
+git clone https://github.com/flybirp/wenshu-court-collector.git \
+  ~/.workbuddy/skills/wenshu-court-collector
 # 或 CodeBuddy
-unzip wenshu-court-collector.zip -d ~/.codebuddy/skills/
+# git clone https://github.com/flybirp/wenshu-court-collector.git \
+#   ~/.codebuddy/skills/wenshu-court-collector
 
 cd ~/.workbuddy/skills/wenshu-court-collector && npm install
 ```

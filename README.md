@@ -16,9 +16,14 @@
 
 ## 安装（作为 WorkBuddy / CodeBuddy skill）
 
-将本仓库解压到 skills 目录：
+把仓库放进 skills 目录（二选一）：
 
 ```bash
+# 方式一：git clone（推荐，便于后续 git pull 更新）
+git clone https://github.com/flybirp/wenshu-court-collector.git \
+  ~/.workbuddy/skills/wenshu-court-collector
+
+# 方式二：下载 ZIP 后解压
 # WorkBuddy
 unzip wenshu-court-collector.zip -d ~/.workbuddy/skills/
 # 或 CodeBuddy
