@@ -1,0 +1,35 @@
+{
+  "name": "wenshu-court-collector",
+  "version": "1.0.0",
+  "description": "裁判文书采集器 —— 中国裁判文书网检索/浏览/下载。双通道：接口快通道（约0.2秒读全文）+ 拟人通道兜底，人工登录，下载不可用时自动提取全文生成 docx/txt。",
+  "type": "module",
+  "license": "MIT",
+  "author": "flybirp",
+  "homepage": "https://github.com/flybirp/wenshu-court-collector",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flybirp/wenshu-court-collector.git"
+  },
+  "keywords": [
+    "wenshu",
+    "court-documents",
+    "china-judgments-online",
+    "legal",
+    "skill",
+    "workbuddy",
+    "codebuddy",
+    "裁判文书",
+    "判决书"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node scripts/cli.mjs start",
+    "status": "node scripts/cli.mjs status",
+    "stop": "node scripts/cli.mjs stop"
+  },
+  "dependencies": {
+    "playwright-core": "^1.65.0"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules/
+.chrome-profile/
+.session.json
+.session.log
+.DS_Store
+*.log
+
+# 运行时下载产物
+dl/
+out/
+*.doc
+*.docx
